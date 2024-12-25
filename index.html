@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlanTrack: Travel organizer</title>
+</head>
+<body>
+
+    <header>
+
+
+    </header>
+    <main>
+        <!-- Add Activity Section-->
+        <section id="add-activity">
+
+            <h2>Add Activity</h2>
+
+            <form action="">
+                <label for="activity-name">Activity Name:</label>
+                <input type="text" id="activity-name" placeholder="e.g., Museam Visit" required>
+
+                <label for="activity-location">Location</label>
+                <input type="text" id="activity-location" placeholder="e.g., Louvre Museama" required>
+
+                <label for="activity-date">Date:</label>
+                <input type="date" id="activity-date" required>
+
+
+                <label for="activity-time">Time:</label>
+                <input type="time" id="activity-time" required>
+
+                <button type="submit">Add to Itinerary</button>
+            </form>
+        </section>
+
+        <!-- Itinary Section-->
+        <section id="Itinerary">
+            <h2>Your Itinerary</h2>
+            <div id="calender-view">
+
+            </div>
+        </section>
+
+        <!-- Export Section-->
+        <section id="export">
+            <h2>Export Itinerary</h2>
+
+            <button id="export-pdf">Download PDF</button>
+        </section>
+
+
+    </main>
+</body>
+</html>
